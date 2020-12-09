@@ -1,23 +1,15 @@
 {
-  "headers": {
-    "/*" : {
-      "X-Author": "BearStudent",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/login/" : {
-      "Content-Type": "text/plain; charset=utf-8",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/sample/" : {
-      "Content-Type": "text/plain; charset=utf-8",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/promise/" : {
-      "Content-Type": "text/plain; charset=utf-8",
-      "Access-Control-Allow-Origin": "*"
-    },
-    "/fetch/" : {
-      "Access-Control-Allow-Origin": "*"
-    }
-  }
+	"headers": {
+		"/*": {
+		"X-Author": "BearStudent",
+		"Access-Control-Allow-Origin": "*"
+		},
+		"/result4/": {
+		"X-Author": "BearStudent",
+		"Access-Control-Allow-Origin": "*",
+		"Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
+		"Access-Control-Allow-Headers": "x-test,Content-Type,Accept,Access-Control-Allow-Headers",
+		"Content-Type": "application/json"
+		}
+	}
 }
