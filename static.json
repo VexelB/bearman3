@@ -4,12 +4,15 @@
 		"X-Author": "BearStudent",
 		"Access-Control-Allow-Origin": "*"
 		},
-		"/result4/": {
+		"/login/": {
 		"X-Author": "BearStudent",
 		"Access-Control-Allow-Origin": "*",
-		"Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS",
-		"Access-Control-Allow-Headers": "x-test,Content-Type,Accept,Access-Control-Allow-Headers",
-		"Content-Type": "application/json"
+		"Content-Type": "text/plain; charset=UTF-8"
+		},
+		"/sample/": {
+		"X-Author": "BearStudent",
+		"Access-Control-Allow-Origin": "*",
+		"Content-Type": "text/plain"
 		}
 	}
 }
